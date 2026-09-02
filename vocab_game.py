@@ -100,12 +100,12 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans1 = st.text_input(
-    "ข้อ 3: An `b _ _ n a` a day keeps the doctor away. 🍌",
-    value=st.session_state.ans1_val,
+    "ข้อ 3: An `b _ _ a n a` a day keeps the doctor away. 🍌",
+    value=st.session_state.ans3_val,
 )
 ans1 = st.text_input(
     "ข้อ 4: An `p _ n` a day keeps the doctor away. 🖊️",
-    value=st.session_state.ans1_val,
+    value=st.session_state.ans4_val,
 )
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
