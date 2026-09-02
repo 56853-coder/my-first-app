@@ -104,7 +104,7 @@ ans1 = st.text_input(
     value=st.session_state.ans1_val,
 )
 ans1 = st.text_input(
-    "ข้อ 4: An `a _ _ l e` a day keeps the doctor away. 🍎",
+    "ข้อ 4: An `p _ n` a day keeps the doctor away. 🖊️",
     value=st.session_state.ans1_val,
 )
 
@@ -113,7 +113,8 @@ st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
-
+st.session_state.ans3_val = ans3
+st.session_state.ans4_val = ans4
 
 # 4. ปุ่มส่งคำตอบ
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
@@ -126,7 +127,8 @@ if "start" in st.session_state and not st.session_state.get("is_ended", False):
 
 # 5. แสดง Dialog ผลลัพธ์
 if st.session_state.get("is_ended", False):
-    show_result_dialog(ans1, ans2)
+    show_result_dialog(ans1, ans2 ,ans3 ,ans4
+)
 
 st.divider()
 st.write("นางสาวอมลรดา วิเศษภักดี เลขที่ 38 ม.4/4")
