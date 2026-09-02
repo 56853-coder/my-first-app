@@ -53,13 +53,13 @@ def show_result_dialog(ans1, ans2):
 
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
     # ตรวจข้อ 3
-    if u_ans3 == "fish":
+    if u_ans3 == "banana":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 # ตรวจข้อ 4
-    if u_ans4 == "fish":
+    if u_ans4 == "pen":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
